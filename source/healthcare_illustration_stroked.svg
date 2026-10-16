@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>Healthcare illustration - doctor with clipboard</title>
+
+  <!-- ============ GROUND SHADOW ============ -->
+  <g id="shadow">
+    <ellipse cx="620" cy="792" rx="480" ry="22" fill="#1E293B" fill-opacity="0.12"/>
+  </g>
+
+  <!-- ============ BUILDING ============ -->
+  <g id="building">
+    <g id="building/tower">
+      <rect x="470" y="140" width="260" height="180" rx="36" fill="#DBEAFE" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="600" cy="215" r="50" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+      <path d="M587 183 H613 V202 H632 V228 H613 V247 H587 V228 H568 V202 H587 Z" fill="#14B8A6" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+    <g id="building/body">
+      <rect x="220" y="280" width="760" height="510" rx="48" fill="#DBEAFE" stroke="#1E293B" stroke-width="3"/>
+      <rect x="220" y="280" width="760" height="40" rx="20" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="building/windows">
+      <rect x="258" y="360" width="60" height="70" rx="14" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+      <rect x="258" y="470" width="60" height="70" rx="14" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+      <rect x="258" y="580" width="60" height="70" rx="14" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+      <rect x="930" y="360" width="30" height="70" rx="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+      <rect x="930" y="470" width="30" height="70" rx="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+      <rect x="930" y="580" width="30" height="70" rx="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="building/door">
+      <path d="M570 790 V700 Q570 670 600 670 Q630 670 630 700 V790 Z" fill="#2563EB" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <line x1="600" y1="676" x2="600" y2="790" stroke="#1E293B" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- ============ CLIPBOARD ============ -->
+  <g id="clipboard">
+    <g id="clipboard/board">
+      <rect x="640" y="310" width="280" height="470" rx="28" fill="#2563EB" stroke="#1E293B" stroke-width="3"/>
+      <rect x="664" y="346" width="232" height="408" rx="14" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="clipboard/clip">
+      <rect x="725" y="288" width="110" height="50" rx="16" fill="#14B8A6" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="780" cy="304" r="8" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="clipboard/heart-rate">
+      <rect x="686" y="372" width="188" height="130" rx="14" fill="#DBEAFE"/>
+      <path d="M700 440 H734 L746 414 L760 472 L776 390 L792 458 L802 440 H860" fill="none" stroke="#F87171" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="860" cy="440" r="6" fill="#F87171"/>
+    </g>
+    <g id="clipboard/lines">
+      <rect x="686" y="528" width="150" height="12" rx="6" fill="#DBEAFE"/>
+      <rect x="686" y="556" width="188" height="12" rx="6" fill="#DBEAFE"/>
+      <rect x="686" y="584" width="120" height="12" rx="6" fill="#DBEAFE"/>
+    </g>
+    <g id="clipboard/checklist">
+      <circle cx="700" cy="636" r="13" fill="#14B8A6"/>
+      <path d="M694 636 L699 641 L707 631" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="724" y="630" width="130" height="12" rx="6" fill="#DBEAFE"/>
+      <circle cx="700" cy="676" r="13" fill="#14B8A6"/>
+      <path d="M694 676 L699 681 L707 671" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="724" y="670" width="100" height="12" rx="6" fill="#DBEAFE"/>
+      <circle cx="700" cy="716" r="13" fill="#FFFFFF" stroke="#14B8A6" stroke-width="3"/>
+      <rect x="724" y="710" width="140" height="12" rx="6" fill="#DBEAFE"/>
+    </g>
+  </g>
+
+  <!-- ============ DOCTOR ============ -->
+  <g id="doctor">
+    <g id="doctor/hair-back">
+      <rect x="408" y="250" width="124" height="128" rx="52" fill="#1E293B"/>
+    </g>
+    <g id="doctor/legs">
+      <rect x="428" y="620" width="36" height="160" rx="14" fill="#2563EB" stroke="#1E293B" stroke-width="3"/>
+      <rect x="476" y="620" width="36" height="160" rx="14" fill="#2563EB" stroke="#1E293B" stroke-width="3"/>
+      <rect x="416" y="768" width="52" height="22" rx="11" fill="#1E293B"/>
+      <rect x="472" y="768" width="52" height="22" rx="11" fill="#1E293B"/>
+    </g>
+    <g id="doctor/neck">
+      <rect x="456" y="340" width="28" height="44" rx="10" fill="#F6C6A4" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="doctor/coat">
+      <path d="M412 378 Q470 362 528 378 Q558 388 560 420 L576 646 Q576 656 566 656 L374 656 Q364 656 364 646 L380 420 Q382 388 412 378 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M444 374 L470 436 L496 374 Z" fill="#14B8A6" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M440 374 L470 446 L448 470 L428 386 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M500 374 L470 446 L492 470 L512 386 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <line x1="470" y1="446" x2="470" y2="656" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="482" cy="500" r="4" fill="#1E293B"/>
+      <circle cx="482" cy="560" r="4" fill="#1E293B"/>
+      <rect x="418" y="566" width="44" height="38" rx="8" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="doctor/arm-left">
+      <path d="M402 392 Q376 398 374 432 L366 590 L404 592 L414 440 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="385" cy="604" r="18" fill="#F6C6A4" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="doctor/pen">
+      <rect x="428" y="446" width="8" height="30" rx="4" fill="#F87171" stroke="#1E293B" stroke-width="2"/>
+      <rect x="420" y="472" width="34" height="8" rx="3" fill="#FFFFFF" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="doctor/badge">
+      <rect x="500" y="486" width="40" height="26" rx="6" fill="#2563EB" stroke="#1E293B" stroke-width="3"/>
+      <rect x="507" y="495" width="20" height="5" rx="2.5" fill="#FFFFFF"/>
+    </g>
+    <g id="doctor/stethoscope">
+      <path d="M446 380 C436 440 452 476 476 480 C500 476 508 440 496 380" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+      <path d="M476 480 C478 500 470 520 452 528" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="446" cy="534" r="14" fill="#14B8A6" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="446" cy="534" r="5" fill="#FFFFFF"/>
+    </g>
+    <g id="doctor/arm-right">
+      <path d="M546 404 L594 520 L652 478" fill="none" stroke="#1E293B" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M546 404 L594 520 L652 478" fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="660" cy="472" r="18" fill="#F6C6A4" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="doctor/head">
+      <circle cx="470" cy="300" r="52" fill="#F6C6A4" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="417" cy="306" r="10" fill="#F6C6A4" stroke="#1E293B" stroke-width="3"/>
+      <circle cx="523" cy="306" r="10" fill="#F6C6A4" stroke="#1E293B" stroke-width="3"/>
+    </g>
+    <g id="doctor/hair">
+      <path d="M416 300 Q414 244 470 242 Q526 244 524 300 Q508 272 478 266 Q474 282 446 288 Q428 292 416 300 Z" fill="#1E293B"/>
+      <circle cx="470" cy="232" r="24" fill="#1E293B"/>
+    </g>
+    <g id="doctor/face">
+      <circle cx="452" cy="306" r="5" fill="#1E293B"/>
+      <circle cx="488" cy="306" r="5" fill="#1E293B"/>
+      <path d="M456 326 Q470 340 484 326" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="440" cy="322" r="7" fill="#F87171" fill-opacity="0.5"/>
+      <circle cx="500" cy="322" r="7" fill="#F87171" fill-opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- ============ FLOATING ICONS ============ -->
+  <g id="icons">
+    <g id="icons/pill" transform="translate(140 250) rotate(-35)">
+      <circle cx="0" cy="0" r="72" fill="#DBEAFE"/>
+      <path d="M0 -24 H-36 A24 24 0 0 0 -36 24 H0 Z" fill="#F87171"/>
+      <path d="M0 -24 H36 A24 24 0 0 1 36 24 H0 Z" fill="#FFFFFF"/>
+      <rect x="-60" y="-24" width="120" height="48" rx="24" fill="none" stroke="#1E293B" stroke-width="3"/>
+      <line x1="0" y1="-24" x2="0" y2="24" stroke="#1E293B" stroke-width="3"/>
+      <rect x="-44" y="-14" width="22" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.7"/>
+    </g>
+    <g id="icons/heart" transform="translate(1065 215)">
+      <circle cx="0" cy="0" r="72" fill="#DBEAFE"/>
+      <path d="M0 38 C-58 0 -54 -46 -24 -46 C-10 -46 0 -36 0 -26 C0 -36 10 -46 24 -46 C54 -46 58 0 0 38 Z" fill="#F87171" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-30 -24 Q-30 -34 -20 -34" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g id="icons/shield" transform="translate(130 610)">
+      <circle cx="0" cy="0" r="72" fill="#DBEAFE"/>
+      <path d="M0 -50 L42 -36 V-2 C42 28 22 46 0 56 C-22 46 -42 28 -42 -2 V-36 Z" fill="#14B8A6" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-18 2 L-5 16 L20 -14" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="icons/syringe" transform="translate(1070 600) rotate(40)">
+      <circle cx="0" cy="0" r="72" fill="#DBEAFE"/>
+      <rect x="-5" y="-66" width="10" height="26" fill="#1E293B"/>
+      <rect x="-20" y="-72" width="40" height="10" rx="5" fill="#1E293B"/>
+      <rect x="-30" y="-44" width="60" height="9" rx="4.5" fill="#1E293B"/>
+      <rect x="-16" y="-38" width="32" height="70" rx="6" fill="#FFFFFF"/>
+      <rect x="-16" y="-6" width="32" height="38" rx="6" fill="#14B8A6"/>
+      <rect x="-16" y="-38" width="32" height="70" rx="6" fill="none" stroke="#1E293B" stroke-width="3"/>
+      <path d="M2 -26 H16 M2 -14 H16 M2 -2 H16 M2 10 H16" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+      <rect x="-7" y="32" width="14" height="12" rx="3" fill="#1E293B"/>
+      <line x1="0" y1="44" x2="0" y2="70" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ============ DECOR ============ -->
+  <g id="decor">
+    <path d="M272 120 V148 M258 134 H286" fill="none" stroke="#14B8A6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M930 112 V134 M919 123 H941" fill="none" stroke="#F87171" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1110 400 V424 M1098 412 H1122" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+    <path d="M90 430 V452 M79 441 H101" fill="none" stroke="#F87171" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="360" cy="190" r="8" fill="#2563EB"/>
+    <circle cx="830" cy="190" r="7" fill="#14B8A6"/>
+    <circle cx="1140" cy="760" r="9" fill="#14B8A6"/>
+    <circle cx="70" cy="780" r="8" fill="#2563EB"/>
+    <circle cx="200" cy="420" r="6" fill="#14B8A6"/>
+    <circle cx="1010" cy="420" r="6" fill="#F87171"/>
+  </g>
+</svg>
